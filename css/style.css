@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap");
+
+/* GENERALS */
+:root {
+  --text-primary-color: #5e5e5e;
+  --text-secondary-color: #b47aea;
+  --text-terciary-color: #ef6161;
+  --checkbox-color: #1e9cea;
+  --white: #fff;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+.centrador {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* UTILIZABLES */
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+/* STYLES */
+.presentation {
+  text-align: center;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 7.2rem;
+  margin: 0;
+  color: var(--text-primary-color);
+}
+
+.paragraph {
+  margin: 0.5rem 0 4rem 0;
+  font-weight: 700;
+  font-size: 2.4rem;
+  color: var(--text-primary-color);
+}
+
+.btn {
+  text-decoration: none;
+  display: block;
+  font-size: 2.4rem;
+  color: #fff;
+  background-color: var(--text-secondary-color);
+  max-width: 18rem;
+  padding: 1rem 2rem;
+  margin: 0 auto;
+  border-radius: 1.5rem;
+}
+
+/* APP */
+.header {
+  margin: 5rem auto 0 auto;
+  width: 90vw;
+  gap: 25vw;
+}
+
+.contador p {
+  margin: 0;
+}
+
+.pendiente {
+  color: var(--text-terciary-color);
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+
+.btn--logout {
+  margin: 0;
+}
+
+.main-app {
+  width: 90vw;
+  padding-top: 20rem;
+  padding-left: 20vw;
+}
+
+/* Agregar */
+.add-task {
+  margin-bottom: 5rem;
+}
+
+.add-task-text {
+  height: 7rem;
+  padding: 1rem 4rem;
+  font-size: 3rem;
+  border: none;
+  border: 0.5rem solid var(--text-secondary-color);
+  outline: none;
+}
+
+.add-task-submit {
+  height: 7rem;
+  padding: 0rem 1.5rem;
+  font-size: 5rem;
+  border: 0.5rem solid var(--text-secondary-color);
+  background-color: var(--text-secondary-color);
+  color: var(--white);
+  cursor: pointer;
+}
+
+/* Task */
+.task {
+  gap: 3rem;
+  margin-bottom: 2.5rem;
+}
+
+.task img {
+  cursor: pointer;
+  max-height: 4rem;
+  filter: invert(58%) sepia(35%) saturate(1121%) hue-rotate(218deg) brightness(93%) contrast(96%);
+}
+.task label {
+  cursor: pointer;
+  font-size: 2.5rem;
+  padding-top: 0.5rem;
+}
+
+.task input {
+  cursor: pointer;
+  margin-right: 1rem;
+  height: 2.5rem;
+  width: 2.5rem;
+}

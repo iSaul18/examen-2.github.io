@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>To-Do-List</title>
+  </head>
+  <body>
+    <header class="header flex">
+      <div class="contador flex">
+        <img src="img/boy-pc.svg" alt="boy-in-pc" />
+        <div>
+          <p class="paragraph">Hi Shobhit</p>
+          <p class="pendiente"><span id="pending">0</span> Tasks Pending</p>
+        </div>
+      </div>
+      <h1 class="title">TaskDo</h1>
+      <a class="btn btn--logout" href="index.html">Logout</a>
+    </header>
+
+    <main class="main-app">
+      <form action="#!" class="add-task flex">
+        <input class="add-task-text" type="text" placeholder="Ingresa una Nueva Tarea" autofocus />
+        <input class="add-task-submit" type="submit" value="+" />
+      </form>
+
+      <div class="contenedor-de-tasks">
+        <!-- <div class="task flex">
+          <img src="icon/trash-outline.svg" />
+          <label class="flex">
+            <input type="checkbox" />
+            <span>TAREA 1</span>
+          </label>
+        </div> -->
+      </div>
+    </main>
+
+    <script defer src="app.js"></script>
+  </body>
+</html>
