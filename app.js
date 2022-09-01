@@ -8,6 +8,7 @@ const tareasRestantes = document.getElementById("pending");
 let contadorDeID = 0;
 
 agregarTareaBTN.addEventListener("click", (e) => {
+
   contadorDeID++;
 
   crearElemento();
